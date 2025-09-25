@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact PEG Security - Get in touch for security consultations, emergency response, or book a security assessment. Located in Bethal, Mpumalanga with 24/7 availability.">
+    <meta name="keywords" content="PEG Security contact, security consultation, emergency response, Bethal security, Mpumalanga security services">
+    
+    <title>Contact PEG Security | 24/7 Security Services & Consultations</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/PEG-Security-Logo-no-BG.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/PEG-Security-Logo-no-BG.png" alt="PEG Security" class="logo-img">
+                </a>
+                <span class="logo-text">PEG SECURITY</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="leadership.html" class="nav-link">Leadership</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="technology.html" class="nav-link">Technology</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="tel:0794139180" class="emergency-btn">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>24/7 Response</span>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="pulse"></span>
+                    <i class="fas fa-headset"></i>
+                    24/7 AVAILABLE
+                </div>
+                <h1 class="hero-title">
+                    Get In <span class="text-gold">Touch</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Ready to secure your assets? Contact PEG Security for immediate assistance, security consultations, or emergency response services.
+                </p>
+                <div class="hero-actions">
+                    <a href="tel:0794139180" class="btn btn-primary">
+                        <i class="fas fa-phone-alt"></i>
+                        Call Emergency Line
+                    </a>
+                    <button class="btn btn-secondary" onclick="openBookingSystem()">
+                        <i class="fas fa-calendar-alt"></i>
+                        Schedule Consultation
+                    </button>
+                </div>
+                <div class="contact-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5</span>
+                        <span class="stat-label">Min Response</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Availability</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">PSIRA Compliant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Methods Section -->
+    <section class="contact-methods">
+        <div class="container">
+            <div class="methods-grid">
+                <div class="contact-card emergency">
+                    <div class="card-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Emergency Response</h3>
+                    <p>24/7 immediate response for security emergencies and threats</p>
+                    <div class="contact-actions">
+                        <a href="tel:0794139180" class="contact-btn primary">
+                            <i class="fas fa-phone"></i>
+                            079 413 9180
+                        </a>
+                        <span class="response-time">Avg 5 min response</span>
+                    </div>
+                </div>
+                
+                <div class="contact-card consultation">
+                    <div class="card-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Security Consultation</h3>
+                    <p>Professional security assessments and customised protection plans</p>
+                    <div class="contact-actions">
+                        <button class="contact-btn secondary" onclick="openBookingSystem()">
+                            <i class="fas fa-calendar"></i>
+                            Book Consultation
+                        </button>
+                        <span class="response-time">Free assessment</span>
+                    </div>
+                </div>
+                
+                <div class="contact-card support">
+                    <div class="card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>General Enquiries</h3>
+                    <p>Questions about services, quotes, or general information</p>
+                    <div class="contact-actions">
+                        <a href="mailto:vusiz@pegholdings.co.za" class="contact-btn secondary">
+                            <i class="fas fa-envelope"></i>
+                            Send Email
+                        </a>
+                        <span class="response-time">24hr response</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Information & Map Section -->
+    <section class="office-info">
+        <div class="container">
+            <div class="office-content">
+                <div class="office-details">
+                    <span class="section-tag">OUR LOCATION</span>
+                    <h2 class="section-title">
+                        Head Office <span class="highlight">Location</span>
+                    </h2>
+                    
+                    <div class="office-cards">
+                        <div class="info-card">
+                            <div class="card-header">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h4>Head Office Address</h4>
+                            </div>
+                            <div class="card-content">
+                                <p>2 Blesbok Street, Uitbreiding 3<br>Bethal, 2310, Mpumalanga<br>South Africa</p>
+                                <a href="https://goo.gl/maps/example" target="_blank" class="map-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Open in Google Maps
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="card-header">
+                                <i class="fas fa-clock"></i>
+                                <h4>Operating Hours</h4>
+                            </div>
+                            <div class="card-content">
+                                <div class="hours-list">
+                                    <div class="hours-item">
+                                        <span>Emergency Response</span>
+                                        <span class="emergency">24/7 Available</span>
+                                    </div>
+                                    <div class="hours-item">
+                                        <span>Office Hours</span>
+                                        <span>Mon-Fri: 08:00-17:00</span>
+                                    </div>
+                                    <div class="hours-item">
+                                        <span>Consultations</span>
+                                        <span>By Appointment</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="card-header">
+                                <i class="fas fa-phone"></i>
+                                <h4>Contact Numbers</h4>
+                            </div>
+                            <div class="card-content">
+                                <div class="phone-list">
+                                    <div class="phone-item">
+                                        <span>Emergency Line</span>
+                                        <a href="tel:0794139180">079 413 9180</a>
+                                    </div>
+                                    <div class="phone-item">
+                                        <span>Office Line</span>
+                                        <a href="tel:0130012849">013 001 2849</a>
+                                    </div>
+                                    <div class="phone-item">
+                                        <span>Email</span>
+                                        <a href="mailto:vusiz@pegholdings.co.za">vusiz@pegholdings.co.za</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="office-map">
+                    <div class="map-container">
+                        <div id="google-map" class="google-map">
+                            <!-- Google Maps will be loaded here -->
+                            <div class="map-placeholder">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h4>Interactive Map</h4>
+                                <p>2 Blesbok Street, Bethal<br>Mpumalanga, South Africa</p>
+                                <button class="map-btn" onclick="loadGoogleMap()">
+                                    <i class="fas fa-map"></i>
+                                    Load Interactive Map
+                                </button>
+                            </div>
+                        </div>
+                        <div class="map-info">
+                            <div class="location-badge">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>PEG Security HQ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HQ Contact Form Section -->
+    <section class="hq-contact-section">
+        <div class="container">
+            <div class="hq-contact-layout">
+                <!-- Contact Information Panel -->
+                <div class="contact-info-panel">
+                    <div class="panel-header">
+                        <span class="security-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            HQ DIRECT LINE
+                        </span>
+                        <h3>Executive Contact Centre</h3>
+                        <p>Secure communication channel for business inquiries, partnerships, and executive-level consultations.</p>
+                    </div>
+                    
+                    <div class="contact-channels">
+                        <div class="channel-item priority">
+                            <div class="channel-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="channel-info">
+                                <span class="channel-label">Priority Line</span>
+                                <a href="tel:0794139180" class="channel-value">079 413 9180</a>
+                                <span class="channel-note">24/7 Executive Response</span>
+                            </div>
+                        </div>
+                        
+                        <div class="channel-item">
+                            <div class="channel-icon">
+                                <i class="fas fa-envelope-open"></i>
+                            </div>
+                            <div class="channel-info">
+                                <span class="channel-label">Executive Email</span>
+                                <a href="mailto:vusiz@pegholdings.co.za" class="channel-value">vusiz@pegholdings.co.za</a>
+                                <span class="channel-note">Secure Business Communications</span>
+                            </div>
+                        </div>
+                        
+                        <div class="channel-item">
+                            <div class="channel-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="channel-info">
+                                <span class="channel-label">HQ Address</span>
+                                <span class="channel-value">2 Blesbok Street, Bethal<br>Mpumalanga, South Africa</span>
+                                <span class="channel-note">By Appointment Only</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="certifications">
+                        <h4>Certifications & Compliance</h4>
+                        <div class="cert-badges">
+                            <div class="cert-badge">
+                                <i class="fas fa-certificate"></i>
+                                <span>PSIRA Registered</span>
+                            </div>
+                            <div class="cert-badge">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>TSASA Certified</span>
+                            </div>
+                            <div class="cert-badge">
+                                <i class="fas fa-award"></i>
+                                <span>SAIDSA Certified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Executive Contact Form -->
+                <div class="hq-form-panel">
+                    <div class="form-header">
+                        <h2>Executive Inquiry Form</h2>
+                        <p>Confidential business communications processed within 2 hours</p>
+                    </div>
+                    
+                    <form id="hqContactForm" class="hq-contact-form">
+                        <!-- Priority Classification -->
+                        <div class="priority-selector">
+                            <label class="priority-label">Inquiry Priority Level</label>
+                            <div class="priority-options">
+                                <div class="priority-option">
+                                    <input type="radio" id="priority-urgent" name="priority" value="urgent" required>
+                                    <label for="priority-urgent">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <span class="priority-title">Urgent</span>
+                                        <span class="priority-desc">Immediate response required</span>
+                                    </label>
+                                </div>
+                                <div class="priority-option">
+                                    <input type="radio" id="priority-business" name="priority" value="business" required>
+                                    <label for="priority-business">
+                                        <i class="fas fa-briefcase"></i>
+                                        <span class="priority-title">Business</span>
+                                        <span class="priority-desc">Standard business inquiry</span>
+                                    </label>
+                                </div>
+                                <div class="priority-option">
+                                    <input type="radio" id="priority-consultation" name="priority" value="consultation" required>
+                                    <label for="priority-consultation">
+                                        <i class="fas fa-comments"></i>
+                                        <span class="priority-title">Consultation</span>
+                                        <span class="priority-desc">Planning & assessment</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Contact Information -->
+                        <div class="form-section">
+                            <h3 class="section-title">Contact Information</h3>
+                            <div class="form-grid">
+                                <div class="form-field">
+                                    <label for="hq-name">Full Name *</label>
+                                    <input type="text" id="hq-name" name="name" required>
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="form-field">
+                                    <label for="hq-title">Position/Title</label>
+                                    <input type="text" id="hq-title" name="title">
+                                    <i class="fas fa-id-badge"></i>
+                                </div>
+                                <div class="form-field">
+                                    <label for="hq-email">Business Email *</label>
+                                    <input type="email" id="hq-email" name="email" required>
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="form-field">
+                                    <label for="hq-phone">Direct Line *</label>
+                                    <input type="tel" id="hq-phone" name="phone" required>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Organization Details -->
+                        <div class="form-section">
+                            <h3 class="section-title">Organization Details</h3>
+                            <div class="form-grid">
+                                <div class="form-field full-width">
+                                    <label for="hq-company">Organization Name *</label>
+                                    <input type="text" id="hq-company" name="company" required>
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <div class="form-field">
+                                    <label for="hq-industry">Industry Sector</label>
+                                    <select id="hq-industry" name="industry">
+                                        <option value="">Select Industry</option>
+                                        <option value="mining">Mining & Resources</option>
+                                        <option value="manufacturing">Manufacturing</option>
+                                        <option value="retail">Retail & Commercial</option>
+                                        <option value="financial">Financial Services</option>
+                                        <option value="healthcare">Healthcare</option>
+                                        <option value="education">Education</option>
+                                        <option value="government">Government</option>
+                                        <option value="residential">Residential</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="form-field">
+                                    <label for="hq-size">Organization Size</label>
+                                    <select id="hq-size" name="size">
+                                        <option value="">Select Size</option>
+                                        <option value="small">1-50 employees</option>
+                                        <option value="medium">51-200 employees</option>
+                                        <option value="large">201-1000 employees</option>
+                                        <option value="enterprise">1000+ employees</option>
+                                    </select>
+                                    <i class="fas fa-users"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Security Requirements -->
+                        <div class="form-section">
+                            <h3 class="section-title">Security Requirements</h3>
+                            <div class="form-grid">
+                                <div class="form-field">
+                                    <label for="hq-service">Primary Service Interest</label>
+                                    <select id="hq-service" name="service">
+                                        <option value="">Select Service</option>
+                                        <option value="armed-response">Armed Response</option>
+                                        <option value="commercial-security">Commercial Security</option>
+                                        <option value="industrial-security">Industrial Security</option>
+                                        <option value="residential-security">Residential Security</option>
+                                        <option value="vip-protection">VIP Protection</option>
+                                        <option value="k9-services">K9 Unit Services</option>
+                                        <option value="security-assessment">Security Assessment</option>
+                                        <option value="risk-management">Risk Management</option>
+                                        <option value="consultation">Strategic Consultation</option>
+                                    </select>
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="form-field">
+                                    <label for="hq-urgency">Timeline</label>
+                                    <select id="hq-urgency" name="urgency">
+                                        <option value="">Select Timeline</option>
+                                        <option value="immediate">Immediate (within 24hrs)</option>
+                                        <option value="urgent">Urgent (within 1 week)</option>
+                                        <option value="planned">Planned (within 1 month)</option>
+                                        <option value="future">Future planning (3+ months)</option>
+                                    </select>
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="form-field full-width">
+                                    <label for="hq-current-security">Current Security Measures</label>
+                                    <textarea id="hq-current-security" name="current-security" rows="2" placeholder="Brief description of existing security arrangements (optional)"></textarea>
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Detailed Message -->
+                        <div class="form-section">
+                            <h3 class="section-title">Detailed Requirements</h3>
+                            <div class="form-field full-width">
+                                <label for="hq-message">Message *</label>
+                                <textarea id="hq-message" name="message" rows="4" placeholder="Please provide specific details about your security requirements, concerns, or questions..." required></textarea>
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Confidentiality Agreement -->
+                        <div class="form-section">
+                            <div class="confidentiality-notice">
+                                <div class="notice-header">
+                                    <i class="fas fa-user-shield"></i>
+                                    <span>Confidentiality & Privacy</span>
+                                </div>
+                                <p>All communications are treated with the highest level of confidentiality. Information provided will only be used to assess and respond to your security requirements.</p>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="hq-privacy" name="privacy-consent" required>
+                                    <span class="checkmark"></span>
+                                    I acknowledge the confidentiality policy and consent to processing of business information for security consultation purposes.
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Form Actions -->
+                        <div class="form-actions">
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                <span>Submit Executive Inquiry</span>
+                            </button>
+                        </div>
+                        
+                        <!-- Response Time Indicator -->
+                        <div class="response-indicator">
+                            <div class="indicator-content">
+                                <i class="fas fa-stopwatch"></i>
+                                <div class="indicator-text">
+                                    <strong>Executive Response Time</strong>
+                                    <span>Urgent: 30 minutes | Business: 2 hours | Consultation: 4 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/PEG-Security-Logo-no-BG.png" alt="PEG Security" class="footer-logo">
+                    <p>South Africa's Premier Security Force</p>
+                    <p class="company-info">PEG Holdings (Pty) Ltd<br>Reg: 2019/447310/07</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="technology.html">Technology</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Contact Methods</h4>
+                    <ul>
+                        <li><a href="tel:0794139180">Emergency: 079 413 9180</a></li>
+                        <li><a href="tel:0130012849">Office: 013 001 2849</a></li>
+                        <li><a href="mailto:vusiz@pegholdings.co.za">Email Us</a></li>
+                        <li><a href="#" onclick="openBookingSystem()">Book Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-emergency">
+                    <h4>Emergency Contact</h4>
+                    <a href="tel:0794139180" class="emergency-number">
+                        <i class="fas fa-phone-alt"></i>
+                        079 413 9180
+                    </a>
+                    <p>Available 24/7</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PEG Security. All rights reserved.</p>
+                <p>PSIRA Registered | Emergency Response Available 24/7</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking System Modal -->
+    <div id="bookingModal" class="booking-modal">
+        <div class="modal-overlay" onclick="closeBookingSystem()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Schedule Security Consultation</h3>
+                <button class="modal-close" onclick="closeBookingSystem()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="booking-progress">
+                <div class="progress-step active" data-step="1">
+                    <span class="step-number">1</span>
+                    <span class="step-label">Service</span>
+                </div>
+                <div class="progress-step" data-step="2">
+                    <span class="step-number">2</span>
+                    <span class="step-label">Details</span>
+                </div>
+                <div class="progress-step" data-step="3">
+                    <span class="step-number">3</span>
+                    <span class="step-label">Schedule</span>
+                </div>
+                <div class="progress-step" data-step="4">
+                    <span class="step-number">4</span>
+                    <span class="step-label">Confirm</span>
+                </div>
+            </div>
+            
+            <form id="bookingForm" class="booking-form">
+                <!-- Step 1: Service Selection -->
+                <div class="booking-step active" data-step="1">
+                    <h4>What service do you need?</h4>
+                    <div class="service-options">
+                        <label class="service-option">
+                            <input type="radio" name="bookingService" value="security-assessment">
+                            <div class="option-content">
+                                <i class="fas fa-search"></i>
+                                <h5>Security Assessment</h5>
+                                <p>Comprehensive evaluation of your security needs</p>
+                                <span class="duration">Duration: 1-2 hours</span>
+                            </div>
+                        </label>
+                        
+                        <label class="service-option">
+                            <input type="radio" name="bookingService" value="consultation">
+                            <div class="option-content">
+                                <i class="fas fa-handshake"></i>
+                                <h5>Security Consultation</h5>
+                                <p>Discuss protection plans and service options</p>
+                                <span class="duration">Duration: 30-60 minutes</span>
+                            </div>
+                        </label>
+                        
+                        <label class="service-option">
+                            <input type="radio" name="bookingService" value="quote-meeting">
+                            <div class="option-content">
+                                <i class="fas fa-calculator"></i>
+                                <h5>Quote & Proposal</h5>
+                                <p>Detailed pricing and service proposals</p>
+                                <span class="duration">Duration: 45 minutes</span>
+                            </div>
+                        </label>
+                        
+                        <label class="service-option">
+                            <input type="radio" name="bookingService" value="emergency-planning">
+                            <div class="option-content">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <h5>Emergency Planning</h5>
+                                <p>Develop comprehensive emergency response plans</p>
+                                <span class="duration">Duration: 1-3 hours</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                
+                <!-- Step 2: Contact Details -->
+                <div class="booking-step" data-step="2">
+                    <h4>Your Contact Information</h4>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="bookingName">Full Name *</label>
+                            <input type="text" id="bookingName" name="bookingName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingCompany">Company/Organisation</label>
+                            <input type="text" id="bookingCompany" name="bookingCompany">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="bookingEmail">Email Address *</label>
+                            <input type="email" id="bookingEmail" name="bookingEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingPhone">Phone Number *</label>
+                            <input type="tel" id="bookingPhone" name="bookingPhone" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="bookingLocation">Property/Site Location *</label>
+                        <textarea id="bookingLocation" name="bookingLocation" rows="2" placeholder="Please provide the address or location where you need security services" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="bookingRequirements">Specific Requirements</label>
+                        <textarea id="bookingRequirements" name="bookingRequirements" rows="3" placeholder="Please describe your security requirements, concerns, or any specific details we should know about"></textarea>
+                    </div>
+                </div>
+                
+                <!-- Step 3: Schedule Selection -->
+                <div class="booking-step" data-step="3">
+                    <h4>Preferred Date & Time</h4>
+                    <div class="schedule-options">
+                        <div class="form-group">
+                            <label for="bookingDate">Preferred Date *</label>
+                            <input type="date" id="bookingDate" name="bookingDate" required>
+                        </div>
+                        
+                        <div class="time-slots">
+                            <label>Preferred Time Slot *</label>
+                            <div class="time-grid">
+                                <label class="time-option">
+                                    <input type="radio" name="bookingTime" value="08:00-09:00">
+                                    <span>08:00 - 09:00</span>
+                                </label>
+                                <label class="time-option">
+                                    <input type="radio" name="bookingTime" value="09:00-10:00">
+                                    <span>09:00 - 10:00</span>
+                                </label>
+                                <label class="time-option">
+                                    <input type="radio" name="bookingTime" value="10:00-11:00">
+                                    <span>10:00 - 11:00</span>
+                                </label>
+                                <label class="time-option">
+                                    <input type="radio" name="bookingTime" value="11:00-12:00">
+                                    <span>11:00 - 12:00</span>
+                                </label>
+                                <label class="time-option">
+                                    <input type="radio" name="bookingTime" value="12:00-13:00">
+                                    <span>12:00 - 13:00</span>
+                                </label>
+                                <label class="time-option">
+                                    <input type="radio" name="bookingTime" value="13:00-14:00">
+                                    <span>13:00 - 14:00</span>
+                                </label>
+                                <label class="time-option">
+                                    <input type="radio" name="bookingTime" value="14:00-15:00">
+                                    <span>14:00 - 15:00</span>
+                                </label>
+                                <label class="time-option">
+                                    <input type="radio" name="bookingTime" value="15:00-16:00">
+                                    <span>15:00 - 16:00</span>
+                                </label>
+                                <label class="time-option">
+                                    <input type="radio" name="bookingTime" value="16:00-17:00">
+                                    <span>16:00 - 17:00</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="alternativeDate">Alternative Date (Optional)</label>
+                            <input type="date" id="alternativeDate" name="alternativeDate">
+                        </div>
+                    </div>
+                    
+                    <div class="booking-note">
+                        <i class="fas fa-info-circle"></i>
+                        <p>We'll confirm your appointment within 2 hours during business hours. For urgent requests, please call our emergency line.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 4: Confirmation -->
+                <div class="booking-step" data-step="4">
+                    <h4>Confirm Your Booking</h4>
+                    <div class="booking-summary">
+                        <div class="summary-section">
+                            <h5>Service Details</h5>
+                            <div class="summary-item">
+                                <span class="label">Service:</span>
+                                <span class="value" id="summaryService">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="label">Duration:</span>
+                                <span class="value" id="summaryDuration">-</span>
+                            </div>
+                        </div>
+                        
+                        <div class="summary-section">
+                            <h5>Contact Information</h5>
+                            <div class="summary-item">
+                                <span class="label">Name:</span>
+                                <span class="value" id="summaryName">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="label">Email:</span>
+                                <span class="value" id="summaryEmail">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="label">Phone:</span>
+                                <span class="value" id="summaryPhone">-</span>
+                            </div>
+                        </div>
+                        
+                        <div class="summary-section">
+                            <h5>Appointment</h5>
+                            <div class="summary-item">
+                                <span class="label">Date:</span>
+                                <span class="value" id="summaryDate">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="label">Time:</span>
+                                <span class="value" id="summaryTime">-</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="terms-agreement">
+                        <label class="checkbox-wrapper">
+                            <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                            <span class="checkbox-custom"></span>
+                            I agree to the terms and conditions and confirm that the information provided is accurate.
+                        </label>
+                    </div>
+                </div>
+                
+                <!-- Navigation Buttons -->
+                <div class="booking-navigation">
+                    <button type="button" class="btn btn-secondary prev-btn" onclick="previousStep()" style="display: none;">
+                        <i class="fas fa-arrow-left"></i>
+                        Previous
+                    </button>
+                    
+                    <button type="button" class="btn btn-primary next-btn" onclick="nextStep()">
+                        Next
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    
+                    <button type="submit" class="btn btn-primary submit-btn" style="display: none;">
+                        <i class="fas fa-check"></i>
+                        Confirm Booking
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="success-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Booking Confirmed!</h3>
+            <p>Your security consultation has been scheduled successfully. We'll contact you within 2 hours to confirm the appointment details.</p>
+            <div class="success-actions">
+                <button class="btn btn-primary" onclick="closeSuccessModal()">
+                    <i class="fas fa-home"></i>
+                    Back to Home
+                </button>
+                <a href="tel:0794139180" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i>
+                    Call Us Now
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" title="Back to top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="contact-script.js"></script>
+</body>
+</html>
