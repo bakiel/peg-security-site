@@ -1193,3 +1193,80 @@ body {
         padding: 20px;
     }
 }
+
+/* =====================
+   Company Video Section
+   ===================== */
+.company-video {
+    background: var(--black);
+    padding: 80px 0;
+    position: relative;
+}
+
+.video-showcase-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.video-info .section-tag {
+    color: var(--gold);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.video-info .section-title {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.video-info .section-description {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.video-actions {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1024px) {
+    .video-showcase-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .video-info {
+        text-align: center;
+    }
+    
+    .video-actions {
+        justify-content: center;
+    }
+}
