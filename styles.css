@@ -1327,7 +1327,7 @@ h1, h2, h3, h4, h5, h6 {
    ===================== */
 .video-showcase {
     background: var(--gradient-dark);
-    padding: 100px 0;
+    padding: 80px 0;
     position: relative;
     overflow: hidden;
 }
@@ -1345,15 +1345,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .video-content {
     display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
     align-items: center;
     position: relative;
     z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .video-text {
     color: var(--white);
+    max-width: 500px;
 }
 
 .video-text .section-tag {
@@ -1407,6 +1410,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .video-container {
     position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .video-wrapper {
@@ -1416,7 +1422,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
-    border: 3px solid rgba(208, 185, 109, 0.2);
+    border: 2px solid rgba(208, 185, 109, 0.2);
 }
 
 .video-wrapper iframe {
@@ -1448,10 +1454,12 @@ h1, h2, h3, h4, h5, h6 {
     .video-content {
         grid-template-columns: 1fr;
         gap: 40px;
+        padding: 0 20px;
     }
     
     .video-text {
         text-align: center;
+        max-width: 100%;
     }
     
     .video-features {
@@ -1460,6 +1468,10 @@ h1, h2, h3, h4, h5, h6 {
     
     .video-cta {
         justify-content: center;
+    }
+    
+    .video-container {
+        max-width: 100%;
     }
 }
 
