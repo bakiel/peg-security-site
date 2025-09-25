@@ -2396,7 +2396,7 @@ h1, h2, h3, h4, h5, h6 {
     /* Hero Section Mobile */
     .hero {
         height: auto;
-        min-height: 100vh;
+        min-height: calc(100vh - 70px);
         padding-top: 80px;
         padding-bottom: 30px;
         display: flex;
@@ -2407,42 +2407,47 @@ h1, h2, h3, h4, h5, h6 {
         padding: 20px 15px;
         margin-top: 0;
         padding-bottom: 20px;
+        width: 100%;
     }
     
     .hero-title {
-        font-size: clamp(1.8rem, 5vw, 2.5rem);
-        line-height: 1.1;
+        font-size: 2rem;
+        line-height: 1.2;
         margin-bottom: 20px;
+        word-wrap: break-word;
     }
     
     .hero-subtitle {
-        font-size: 1rem;
-        margin-bottom: 30px;
+        font-size: 0.95rem;
+        margin-bottom: 25px;
+        line-height: 1.5;
     }
     
     .hero-stats {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         margin-bottom: 30px;
     }
     
     .stat-card {
-        flex: 1 1 calc(50% - 10px);
-        min-width: 130px;
-        padding: 12px 8px;
+        padding: 10px 5px;
+        min-width: 0;
     }
     
     .stat-number {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+    
+    .stat-label {
+        font-size: 0.7rem;
     }
     
     .hero-actions {
         flex-direction: column;
         width: 100%;
-        gap: 15px;
-        padding: 0 10px;
+        gap: 12px;
+        padding: 0;
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -2595,53 +2600,64 @@ h1, h2, h3, h4, h5, h6 {
     /* Hero Mobile Small */
     .hero {
         height: auto;
-        min-height: 100vh;
+        min-height: calc(100vh - 60px);
         padding-top: 70px;
         padding-bottom: 20px;
     }
     
     .hero-badge {
         font-size: 10px;
-        padding: 6px 15px;
-        margin-bottom: 15px;
+        padding: 6px 12px;
+        margin-bottom: 10px;
     }
     
     .hero-title {
-        font-size: clamp(1.5rem, 6vw, 2rem);
+        font-size: 1.75rem;
         margin-bottom: 15px;
-        line-height: 1.15;
-        margin-top: 10px;
+        line-height: 1.2;
+        margin-top: 5px;
     }
     
     .hero-subtitle {
-        font-size: 0.9rem;
-        margin-bottom: 25px;
+        font-size: 0.85rem;
+        margin-bottom: 20px;
         line-height: 1.4;
+        padding: 0 10px;
     }
     
     .hero-stats {
+        grid-template-columns: 1fr;
         gap: 8px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     
     .stat-card {
-        padding: 10px 8px;
-        flex: 1 1 calc(50% - 8px);
-        min-width: 120px;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
     }
     
     .stat-number {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     
     .stat-label {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
+        text-align: right;
     }
     
     .hero-actions {
-        gap: 12px;
+        gap: 10px;
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+    
+    .btn {
+        min-height: 44px;
+        font-size: 0.8rem;
+        padding: 10px 16px;
     }
     
     /* Team Stats */
