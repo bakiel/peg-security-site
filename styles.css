@@ -2395,61 +2395,69 @@ h1, h2, h3, h4, h5, h6 {
     
     /* Hero Section Mobile */
     .hero {
-        height: 100vh;
-        min-height: 700px;
-        padding-top: 100px;
+        height: auto;
+        min-height: 100vh;
+        padding-top: 80px;
         padding-bottom: 30px;
+        display: flex;
+        align-items: center;
     }
     
     .hero-content {
-        padding: 30px 15px;
+        padding: 20px 15px;
         margin-top: 0;
-        padding-bottom: 60px;
+        padding-bottom: 20px;
     }
     
     .hero-title {
-        font-size: clamp(1.6rem, 4vw, 2.5rem);
-        line-height: 0.9;
+        font-size: clamp(1.8rem, 5vw, 2.5rem);
+        line-height: 1.1;
+        margin-bottom: 20px;
     }
     
     .hero-subtitle {
-        font-size: 0.9rem;
+        font-size: 1rem;
+        margin-bottom: 30px;
     }
     
     .hero-stats {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
+        gap: 10px;
+        margin-bottom: 30px;
     }
     
     .stat-card {
-        flex: 1 1 45%;
-        min-width: 140px;
-        padding: 15px 10px;
+        flex: 1 1 calc(50% - 10px);
+        min-width: 130px;
+        padding: 12px 8px;
     }
     
     .stat-number {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .hero-actions {
         flex-direction: column;
         width: 100%;
         gap: 15px;
-        padding: 0 20px;
-        margin-bottom: 40px;
+        padding: 0 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     
     .btn {
         width: 100%;
         justify-content: center;
-        max-width: 300px;
+        padding: 12px 20px;
+        font-size: 0.85rem;
     }
     
     .video-play-button {
         width: 100%;
-        max-width: 300px;
+        padding: 12px 20px;
+        font-size: 0.85rem;
     }
     
     /* Services Mobile */
@@ -2586,34 +2594,54 @@ h1, h2, h3, h4, h5, h6 {
     
     /* Hero Mobile Small */
     .hero {
-        height: 100vh;
-        min-height: 650px;
-        padding-top: 85px;
+        height: auto;
+        min-height: 100vh;
+        padding-top: 70px;
         padding-bottom: 20px;
     }
     
     .hero-badge {
         font-size: 10px;
         padding: 6px 15px;
+        margin-bottom: 15px;
     }
     
     .hero-title {
-        font-size: clamp(1.4rem, 4vw, 2.2rem);
+        font-size: clamp(1.5rem, 6vw, 2rem);
         margin-bottom: 15px;
-        line-height: 0.9;
+        line-height: 1.15;
+        margin-top: 10px;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 25px;
+        line-height: 1.4;
+    }
+    
+    .hero-stats {
+        gap: 8px;
+        margin-bottom: 25px;
     }
     
     .stat-card {
-        padding: 12px 8px;
-        flex: 1 1 100%;
+        padding: 10px 8px;
+        flex: 1 1 calc(50% - 8px);
+        min-width: 120px;
     }
     
     .stat-number {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .stat-label {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
+    }
+    
+    .hero-actions {
+        gap: 12px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     
     /* Team Stats */
